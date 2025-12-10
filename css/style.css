@@ -1,0 +1,17 @@
+.main-navbar {
+    width: 100%;
+}
+.navbar-content{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+}
+.main-wrapper {
+    background-color: #eaeef9;
+}
+.main-content {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
