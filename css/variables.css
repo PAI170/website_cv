@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #979797;
+  --color-primary-hover: #b82843;
+  --color-background: #eaeef9;
+
+  --font-primary:"Poppins", sans-serif;
+  --font-menu:"DM Sans", sans-serif;
+  --font-text:"Inter", sans-serif;
+  
+  --spacing-small: 1rem;
+  --spacing-medium: 2rem;
+  --spacing-large: 3rem;
+  
+  --max-width: 100rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
