@@ -43,10 +43,6 @@
   padding-top: 10rem;
   background-color: var(--color-background);
 }
-.main-content {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
 /*-----------------------------------*/
 
 /*NAVBAR TABLET*/
@@ -104,8 +100,8 @@
     transform: translateX(0);
   }
 }
-/*------------------------------------------------------------*/
-.home-wrapper {
+/*----------------------Home Design--------------------------------------*/
+.home-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,13 +142,13 @@
 
 /*Home Tablet */
 @media (min-width:768px) and (max-width: 1023px) {
-  .home-wrapper {
+  .home-content {
     flex-direction: column;
   }
 }
 /*---Home Mobile----*/
 @media (min-width:0px) and (max-width: 767px) {
-  .home-wrapper {
+  .home-content {
     flex-direction: column;
   }
 
@@ -160,9 +156,31 @@
     text-align: center;
   }
 }
-/*--------------------------------------------------*/
-
+/*---------------About Design-----------------------------------*/
+#about {
+  display: flex;
+  justify-content: center;
+}
 .about-wrapper {
-  width: 100%;
-  background-color: white;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+#about h2 {
+  font-size: 2.2rem;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.decorative-line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--color-primary-hover);
+  padding: 0.1rem;
+  width: 8rem;
+  border-radius: 10%;
+}
+.about-text p {
+  font-size: 1.5rem;
+  font-family: var(--font-text);
+  line-height: 1.3em;
 }
