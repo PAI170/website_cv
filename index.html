@@ -37,6 +37,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/menuBtn.js" defer></script>
+    <script src="js/skill.js" defer></script>
   </head>
   <body>
     <nav class="main-navbar full-width">
@@ -95,86 +96,116 @@
       </div>
       <div class="about-wrapper full-width white">
         <div class="about-content container">
-            <section id="about">
-              <div class="about-text">
-                <h2>about me</h2>
-                <div class="decorative-line"></div>
-                <p>
-                  Junior Fullstack Developer with a solid foundation in the .NET
-                  and Angular ecosystems, focused on building scalable and
-                  efficient web applications. I possess practical experience
-                  with the C#, ASP.NET Core, HTML, CSS, JavaScript, and SQL
-                  stack, applying agile development methodologies. My profile is
-                  complemented by comprehensive knowledge in Information
-                  Technology (IT) and Security, including the administration and
-                  support for the installation of CCTV systems. I seek to apply
-                  my dual vision (Development and IT Security) to optimize
-                  processes and contribute to the development of robust
-                  technological solutions that ensure both functionality and
-                  data integrity. A committed and constant learner dedicated to
-                  continuous improvement
-                </p>
-              </div>
-              <div class="about-skills">
-                <h2>what can I do</h2>
-                <div class="skills-images">
-                  <div class="web-design">
-                    <img src="images/web.png" alt="Webdesign Image" />
-                  </div>
-                  <div class="it-support">
-                    <img src="images/it.png" alt="IT Support Image" />
-                  </div>
-                  <div class="cctv">
-                    <img src="images/cctv.png" alt="CCTV Image" />
-                  </div>
+          <section id="about">
+            <div class="about-text">
+              <h2>about me</h2>
+              <div class="decorative-line"></div>
+              <p>
+                Junior Fullstack Developer with a solid foundation in the .NET
+                and Angular ecosystems, focused on building scalable and
+                efficient web applications. I possess practical experience with
+                the C#, ASP.NET Core, HTML, CSS, JavaScript, and SQL stack,
+                applying agile development methodologies. My profile is
+                complemented by comprehensive knowledge in Information
+                Technology (IT) and Security, including the administration and
+                support for the installation of CCTV systems. I seek to apply my
+                dual vision (Development and IT Security) to optimize processes
+                and contribute to the development of robust technological
+                solutions that ensure both functionality and data integrity. A
+                committed and constant learner dedicated to continuous
+                improvement
+              </p>
+            </div>
+            <div class="about-skills">
+              <h2>what can I do</h2>
+              <div class="skills-images">
+                <div class="web-design">
+                  <img src="images/web.png" alt="Webdesign Image" />
                 </div>
-                <div class="skills">
-                  <h2>my skills</h2>
-                  <div class="html">
-                    <span class="skill-text">html</span>
-                    <div></div>
-                    <span class="blue-circle"></span>
-                    <span class="percentage">80%</span>
-                  </div>
-                  <div class="css">
-                    <span class="skill-text">css</span>
-                    <div></div>
-                    <span class="blue-circle"></span>
-                    <span class="percentage">70%</span>
-                  </div>
-                  <div class="js">
-                    <span class="skill-text">JavaScript</span>
-                    <div></div>
-                    <span class="blue-circle"></span>
-                    <span class="percentage">50%</span>
-                  </div>
-                  <div class="C#">
-                    <span class="skill-text">C#</span>
-                    <div></div>
-                    <span class="blue-circle"></span>
-                    <span class="percentage">50%</span>
-                  </div>
-                  <div class="asp">
-                    <span class="skill-text">asp.net core</span>
-                    <div></div>
-                    <span class="blue-circle"></span>
-                    <span class="percentage">60%</span>
-                  </div>
-                  <div class="sql">
-                    <span class="skill-text">sql</span>
-                    <div></div>
-                    <span class="blue-circle"></span>
-                    <span class="percentage">70%</span>
-                  </div>
-                  <div class="wordpress">
-                    <span class="skill-text">wordpress</span>
-                    <div></div>
-                    <span class="blue-circle"></span>
-                    <span class="percentage">70%</span>
-                  </div>
+                <div class="it-support">
+                  <img src="images/it.png" alt="IT Support Image" />
+                </div>
+                <div class="cctv">
+                  <img src="images/cctv.png" alt="CCTV Image" />
                 </div>
               </div>
-            </section>
+              <div class="skills">
+                <h2>my skills</h2>
+                <div class="skill-item">
+                  <div class="skill-name">HTML</div>
+                  <div class="progress-container">
+                    <div class="progress-bar" style="--progress-width: 92%">
+                      <div class="progress-circle"></div>
+                    </div>
+                  </div>
+                  <div class="percentage" data-target="92">0%</div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-name">CSS</div>
+                  <div class="progress-container">
+                    <div class="progress-bar" style="--progress-width: 80%">
+                      <div class="progress-circle"></div>
+                    </div>
+                  </div>
+                  <div class="percentage" data-target="80">0%</div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-name">JavaScript</div>
+                  <div class="progress-container">
+                    <div class="progress-bar" style="--progress-width: 50%">
+                      <div class="progress-circle"></div>
+                    </div>
+                  </div>
+                  <div class="percentage" data-target="50">0%</div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-name">SQL</div>
+                  <div class="progress-container">
+                    <div class="progress-bar" style="--progress-width: 50%">
+                      <div class="progress-circle"></div>
+                    </div>
+                  </div>
+                  <div class="percentage" data-target="50">0%</div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-name">C#</div>
+                  <div class="progress-container">
+                    <div class="progress-bar" style="--progress-width: 60%">
+                      <div class="progress-circle"></div>
+                    </div>
+                  </div>
+                  <div class="percentage" data-target="60">0%</div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-name">Angular</div>
+                  <div class="progress-container">
+                    <div class="progress-bar" style="--progress-width: 40%">
+                      <div class="progress-circle"></div>
+                    </div>
+                  </div>
+                  <div class="percentage" data-target="40">0%</div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-name">ASP.NET</div>
+                  <div class="progress-container">
+                    <div class="progress-bar" style="--progress-width: 60%">
+                      <div class="progress-circle"></div>
+                    </div>
+                  </div>
+                  <div class="percentage" data-target="60">0%</div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-name">Git</div>
+                  <div class="progress-container">
+                    <div class="progress-bar" style="--progress-width: 50%">
+                      <div class="progress-circle"></div>
+                    </div>
+                  </div>
+                  <div class="percentage" data-target="50">0%</div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
       <div class="main-content container">
