@@ -235,7 +235,7 @@
 
 .progress-bar {
   height: 100%;
-  background-color: #00a8e8;
+  background-color: var(--color-primary-hover);
   border-radius: 10px;
   position: relative;
   width: 0;
@@ -257,7 +257,7 @@
 .progress-circle {
   width: 16px;
   height: 16px;
-  background-color: #00a8e8;
+  background-color: var(--color-primary-hover);
   border: 3px solid white;
   border-radius: 50%;
   position: absolute;
@@ -269,8 +269,54 @@
 
 .percentage {
   font-size: 18px;
-  color: #00a8e8;
+  color: var(--color-primary-hover);
   font-weight: bold;
   min-width: 50px;
   text-align: right;
+}
+/*--------------------Experience Design--------------*/
+.experience-content1 {
+  display: flex;
+  justify-content: center;
+}
+
+.experience-grid {
+  flex-grow: 2;
+}
+
+.experience-content h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+.resume {
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.experience-content h4 {
+  font-size: 1.2rem;
+  font-family: var(--font-text);
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.work-grid {
+  flex-basis: 0;
+  flex-grow: 2;
+}
+
+.experience-content1 h3 {
+  font-size: 1.5rem;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
 }
