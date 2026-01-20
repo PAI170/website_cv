@@ -278,10 +278,12 @@
 .experience-content1 {
   display: flex;
   justify-content: center;
+  gap: 5rem;
 }
 
 .experience-grid {
   flex-grow: 2;
+  flex-basis: 0;
 }
 
 .experience-content h2 {
@@ -319,4 +321,41 @@
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 2rem;
+}
+
+.academy, .work-content {
+  padding: 2rem;
+  box-shadow: 1px 1px 20px 1px #00000038;
+}
+
+.experience-content1 h6 {
+  font-family: var(--font-menu);
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin:1rem 0;
+}
+
+.experience-content1 span {
+  font-size: 1rem;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  line-height: 2em;
+}
+
+.experience-content1 strong {
+  color: var(--color-primary-hover);
+  font-weight: 600;
+}
+
+.experience-content1 p {
+  font-family: var(--font-text);
+  font-size: 1.3rem;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+
+.high-school, .web-designer {
+  border-bottom: 1px solid var(--color-primary);
+  padding: 3rem 0;
 }
