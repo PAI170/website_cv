@@ -183,9 +183,10 @@
   border-radius: 10%;
 }
 .about-text p {
+  font-size: 1.2rem;
   display: inline;
-  font-family: var(--font-text);
-  line-height: 1.3em;
+  font-family: var(--font-primary);
+  line-height: 1.5em;
 }
 .about-text {
   align-items: center;
@@ -278,6 +279,7 @@
 .experience-content1 {
   display: flex;
   justify-content: center;
+  flex-flow: wrap;
   gap: 5rem;
 }
 
@@ -321,6 +323,7 @@
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .academy, .work-content {
@@ -328,7 +331,7 @@
   box-shadow: 1px 1px 20px 1px #00000038;
 }
 
-.experience-content1 h6 {
+.experience-content1 h5 {
   font-family: var(--font-menu);
   font-size: 2rem;
   font-weight: 600;
@@ -336,26 +339,39 @@
   margin:1rem 0;
 }
 
-.experience-content1 span {
-  font-size: 1rem;
+.experience-content1 h6 {
+  font-size: 1.1rem;
   font-family: var(--font-primary);
   color: var(--color-primary);
   line-height: 2em;
+  margin: 1rem 0;
 }
 
-.experience-content1 strong {
+.experience-content1 span {
   color: var(--color-primary-hover);
   font-weight: 600;
 }
 
 .experience-content1 p {
-  font-family: var(--font-text);
+  font-family: var(--font-primary);
   font-size: 1.3rem;
   line-height: 1.5em;
-  font-weight: 100;
+  font-weight: 300;
+}
+
+.experience-content1 strong
+{
+  font-weight: 600;
 }
 
 .high-school, .web-designer {
   border-bottom: 1px solid var(--color-primary);
   padding: 3rem 0;
+}
+
+/*--------------Experience Responsive Design--------------*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .experience-content1 {
+    flex-direction: column;
+  }
 }
