@@ -474,7 +474,7 @@
 
 /*------------------Services Design----------------------------*/
 .services {
-  margin: 15rem 0;
+  margin-top: 15rem;
 }
 
 .services-content h2 {
@@ -561,3 +561,17 @@
 }
 
 /*------------------------------------------------------------*/
+
+/*-------------------Footer Design---------------------------*/
+footer {
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.footer-content span{
+  display: block;
+  text-align: center;
+  margin: 2rem 0;
+  font-family: var(--font-menu);
+  font-size: 1rem;
+  font-weight: 600;
+}
